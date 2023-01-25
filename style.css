@@ -1,0 +1,99 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+.container-navbar{
+   background-color: #333;
+   width: 100%;
+   height: 50px;
+   justify-content: center;
+align-items: center;
+}
+
+.ul-navbar {
+display: flex;
+height: 50px;
+justify-content:right;
+align-items:center;
+
+}
+
+.li-navbar {
+list-style-type: none;
+padding: 10px;
+margin: 5px;
+color: white;
+font-size: 10px;
+}
+
+.li-navbar:hover{
+    background-color: black;
+    transition: .5s ease-in-out;
+    transition-delay: .3;
+    border-radius: 8px;
+}
+
+.a-navbar{
+    color:white;
+    text-decoration: none;
+}
+
+.container-content{
+    background-color: aqua;
+}
+
+.container-footer{
+width: 100%;
+height: 100px;
+display:grid;
+justify-content: center;
+align-items: center;
+}
+
+.h1-content{
+display:flex;
+justify-content:center;
+align-items: center;
+font-size: 50;
+}
+
+.h2-content{
+    display:flex;
+justify-content:center;
+align-items: center;
+font-size: 75;
+}
+
+.h3-content{
+    display:flex;
+justify-content:center;
+align-items: center;
+font-size: 45;
+}
+
+.h3-footer:hover{
+    background-color: black;
+    transition: .5s ease-in-out;
+    transition-delay: .3;
+    border-radius: 8px;
+}
+
+body{
+    background-image: url(kantor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+
+}
+
+.h3-footer{
+    border: 5px solid rgb(217, 213, 213);
+background-color:none;
+list-style-type: none;
+padding: 10px;
+margin: 5px;
+color: white;
+}
